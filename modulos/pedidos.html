@@ -1,12 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
+<link rel="stylesheet" href="../css/pedido.css">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>pedidos</title>
+    <title>Pedidos</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.4/css/bulma.min.css">
+    <link rel="stylesheet" href="../css/pedidos.css">
 </head>
+
 <body>
-    <h1>PEDIDOS</h1>
-    <hr>
+
+
+
+    <div class="container">
+
+        <form class="box">
+
+            <h1 class="title">REALIZAR PEDIDO</h1>
+
+            <div class="field">
+                <label class="label">Nombre</label>
+                <div class="control">
+                    <input class="input" type="text" placeholder="Ingrese su nombre">
+                </div>
+            </div>
+
+            <div class="field">
+                <label class="label">Dirección</label>
+                <div class="control">
+                    <input class="input" type="text" placeholder="Ingrese su dirección">
+                </div>
+            </div>
+
+            <div class="field">
+                <label class="label">Teléfono</label>
+                <div class="control">
+                    <input class="input" type="tel" placeholder="Ingrese su teléfono">
+                </div>
+            </div>
+
+            <div class="field">
+                <label class="label">Email</label>
+                <div class="control">
+                    <input class="input" type="email" placeholder="Ingrese su correo">
+                </div>
+            </div>
+
+            <div class="field">
+                <label class="label">Método de Pago</label>
+                <div class="control">
+                    <div class="select is-fullwidth">
+                        <select>
+                            <option>Efectivo</option>
+                            <option>Tarjeta</option>
+                            <option>Nequi</option>
+                            <option>Daviplata</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+            <div class="field">
+                <label class="label">Comentario del Pedido</label>
+                <div class="control">
+                    <textarea class="textarea" placeholder="Escriba un comentario"></textarea>
+                </div>
+            </div>
+
+            <div class="field">
+                <div class="control">
+                    <button class="button is-success is-fullwidth">
+                        Enviar Pedido
+                    </button>
+                </div>
+            </div>
+
+
+            <div class="logo-home">
+                <a href="/index.html">
+                    <img src="https://cdn-icons-png.flaticon.com/512/25/25694.png" alt="Home">
+                </a>
+            </div>
+
+        </form>
+
+    </div>
+
 </body>
+
 </html>
